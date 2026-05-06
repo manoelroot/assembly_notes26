@@ -8,6 +8,8 @@ Este repositório organiza anotações completas sobre Assembly x86_64 para Linu
 - `sources/` — recursos de aprendizado, ferramentas e extensões úteis.
 - `diagrams/` — diagramas Mermaid para visualizar arquitetura e fluxo de execução.
 - `images/` — ilustrações SVG explicativas para apoiar o aprendizado.
+- `CONTRIBUTING.md` — orientações de contribuição e fluxo de PR.
+- `PROJECT_STRUCTURE.md` — descrição da organização de pastas e arquivos.
 
 ## Como usar
 1. Comece lendo `linux_x86_64/README.md` para entender a estrutura principal.
