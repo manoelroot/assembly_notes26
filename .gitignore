@@ -1,0 +1,19 @@
+# Sistema e edição
+.DS_Store
+*.swp
+*~
+*.tmp
+
+# Binários e objetos
+*.o
+*.obj
+*.exe
+*.out
+*.elf
+*.bin
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
