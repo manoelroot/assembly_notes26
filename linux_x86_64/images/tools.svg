@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="260">
+  <style>
+    .box { fill:#eff6ff; stroke:#1d4ed8; stroke-width:2px; }
+    .text { font: 14px sans-serif; fill:#1e293b; }
+    .title { font: 18px sans-serif; font-weight:bold; }
+  </style>
+  <rect class="box" x="60" y="60" width="220" height="120" rx="16"/>
+  <rect class="box" x="300" y="60" width="220" height="120" rx="16"/>
+  <rect class="box" x="540" y="60" width="220" height="120" rx="16"/>
+  <text class="text title" x="120" y="95">Assembler</text>
+  <text class="text" x="80" y="125">nasm, gas, yasm</text>
+  <text class="text" x="80" y="145">montagem de .asm para .o</text>
+  <text class="text title" x="365" y="95">Linker</text>
+  <text class="text" x="320" y="125">ld, gcc</text>
+  <text class="text" x="320" y="145">cria executáveis</text>
+  <text class="text title" x="605" y="95">Debugger</text>
+  <text class="text" x="560" y="125">gdb</text>
+  <text class="text" x="560" y="145">inspeciona registradores</text>
+  <path d="M280,120 L300,120" stroke="#1d4ed8" stroke-width="3" marker-end="url(#arr)" />
+  <path d="M520,120 L540,120" stroke="#1d4ed8" stroke-width="3" marker-end="url(#arr)" />
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8" />
+    </marker>
+  </defs>
+  <text class="text" x="60" y="38">Fluxo de ferramenta: Assemblar → Linkar → Depurar</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280">
+  <style>
+    .box { fill:#f8fafc; stroke:#0f172a; stroke-width:2px; }
+    .text { font: 14px sans-serif; fill:#111827; }
+    .title { font: 18px sans-serif; font-weight:bold; }
+  </style>
+  <rect class="box" x="40" y="50" width="340" height="180" rx="12"/>
+  <rect class="box" x="420" y="50" width="340" height="180" rx="12"/>
+  <text class="text title" x="120" y="80">AT&T</text>
+  <text class="text title" x="500" y="80">Intel</text>
+  <text class="text" x="60" y="110">movq %rax, %rbx</text>
+  <text class="text" x="60" y="135">%dst, %src</text>
+  <text class="text" x="60" y="160">prefixo % para registradores</text>
+  <text class="text" x="60" y="185">ordem opostos</text>
+  <text class="text" x="440" y="110">mov rbx, rax</text>
+  <text class="text" x="440" y="135">dst, src</text>
+  <text class="text" x="440" y="160">sem prefixo %</text>
+  <text class="text" x="440" y="185">ordem natural</text>
+  <text class="text" x="60" y="230">Use `.intel_syntax noprefix` para Intel em GAS.</text>
+</svg>
