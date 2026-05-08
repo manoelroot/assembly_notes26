@@ -4,6 +4,7 @@ Esta pasta reúne conteúdos para aprofundamento em performance, paralelismo e s
 
 ## O que você encontra aqui
 - `otimizacao.md` — técnicas para código mais rápido e eficiente.
+- `otimizacao_tecnicas_aplicadas.md` — análise detalhada das otimizações implementadas nos exemplos práticos.
 - `simd.md` — uso de SSE/AVX para processamento vetorial.
 - `multithreading.md` — criação de threads, sincronização e memória compartilhada.
 - `seguranca.md` — práticas para evitar vulnerabilidades e exploits.
@@ -13,10 +14,12 @@ Mostre como evoluir de um código funcional para um código otimizado e seguro. 
 
 ## Como usar
 1. Leia `otimizacao.md` para melhorar eficiência.
-2. Estude `simd.md` ao trabalhar com dados vetoriais.
-3. Consulte `multithreading.md` para programação concorrente.
-4. Veja `seguranca.md` para proteger rotinas críticas.
-5. Use `../images/advanced.svg` para um panorama visual das áreas avançadas.
+2. Estude `otimizacao_tecnicas_aplicadas.md` para ver como otimizações foram aplicadas em código real.
+3. Explore os exemplos otimizados em `../05-exemplos/` (programa_principal.asm, loops_otimizados.asm, etc.).
+4. Estude `simd.md` ao trabalhar com dados vetoriais.
+5. Consulte `multithreading.md` para programação concorrente.
+6. Veja `seguranca.md` para proteger rotinas críticas.
+7. Use `../images/advanced.svg` para um panorama visual das áreas avançadas.
 
 ## Dicas importantes
 - Otimize apenas depois de validar correção.
